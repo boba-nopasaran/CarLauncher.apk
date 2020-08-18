@@ -189,13 +189,18 @@
 
     check-cast v0, Lcom/car/launchercommon/ImageViewIcon;
 
-    const v1, 0x7f06001e
+#by boba 18.08.2020
+#style
+#    const v1, 0x7f06001e
+const v1, 0x7f06bb01
 
     invoke-virtual {v0, v1}, Lcom/car/launchercommon/ImageViewIcon;->setText(I)V
 
-    const-string v1, "home_file_manager"
+#    const-string v1, "home_file_manager"
 
-    const v2, 0x7f02001b
+#    const v2, 0x7f02001b
+const-string v1, "home_car_player"
+const v2, 0x7f02bb01
 
     invoke-static {v0, v1, v2}, Lcom/car/launchercommon/CustomUI;->appply(Landroid/widget/TextView;Ljava/lang/String;I)V
 
@@ -1192,9 +1197,11 @@
 
     check-cast v6, Lcom/car/launchercommon/ImageViewIcon;
 
-    const/high16 v9, -0x1000000
+#by boba 18.08.2020
+#style
+#    const/high16 v9, -0x1000000
 
-    invoke-virtual {v6, v9}, Lcom/car/launchercommon/ImageViewIcon;->setTextColor(I)V
+#    invoke-virtual {v6, v9}, Lcom/car/launchercommon/ImageViewIcon;->setTextColor(I)V
 
     invoke-virtual {v6, v2}, Lcom/car/launchercommon/ImageViewIcon;->setTextSize(F)V
 
@@ -1232,9 +1239,11 @@
 
     check-cast v6, Lcom/car/launchercommon/ImageViewIcon;
 
-    const/4 v9, -0x1
+#by boba 18.08.2020
+#style
+#    const/4 v9, -0x1
 
-    invoke-virtual {v6, v9}, Lcom/car/launchercommon/ImageViewIcon;->setTextColor(I)V
+#    invoke-virtual {v6, v9}, Lcom/car/launchercommon/ImageViewIcon;->setTextColor(I)V
 
     invoke-virtual {v6, v2}, Lcom/car/launchercommon/ImageViewIcon;->setTextSize(F)V
 
@@ -1260,9 +1269,11 @@
 
     check-cast v6, Lcom/car/launchercommon/ImageViewIcon;
 
-    const/4 v9, -0x1
+#by boba 18.08.2020
+#style
+#    const/4 v9, -0x1
 
-    invoke-virtual {v6, v9}, Lcom/car/launchercommon/ImageViewIcon;->setTextColor(I)V
+#    invoke-virtual {v6, v9}, Lcom/car/launchercommon/ImageViewIcon;->setTextColor(I)V
 
     invoke-virtual {v6, v2}, Lcom/car/launchercommon/ImageViewIcon;->setTextSize(F)V
 
@@ -1485,6 +1496,10 @@
     move-result-object v0
 
     check-cast v0, Landroid/widget/ImageButton;
+	
+#by boba 18.08.2020
+#style
+goto :goto_100
 
     const-string v9, "com.car.cloud"
 
@@ -1613,6 +1628,9 @@
     goto/16 :goto_0
 
     :cond_2
+#by boba 18.08.2020
+#style	
+:goto_100
     const v9, 0x7f020010
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageButton;->setImageResource(I)V

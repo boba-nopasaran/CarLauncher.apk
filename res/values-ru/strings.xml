@@ -38,4 +38,7 @@
     <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="default_gps_number">0</string>
     <string name="home_btn_play_store">Play Store</string>
+<!-- by boba 18.08.2020
+style -->
+    <string name="home_car_player">Записи</string>
 </resources>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--by boba 18.08.2020
+style -->
+    <string name="home_car_player">Records</string>
+
     <string name="launcher_lib_name">LauncherCommon</string>
     <string name="folder_name">folder_name</string>
     <string name="no_content_text">No Content</string>

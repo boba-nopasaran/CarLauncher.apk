@@ -15,4 +15,7 @@
     <color name="batterymeter_frame_color">#66ffffff</color>
     <color name="batterymeter_charge_color">#ffffffff</color>
     <color name="batterymeter_bolt_color">#b2000000</color>
+<!-- by boba 18.08.2020
+style -->
+    <color name="text_gray">#ff585858</color>
 </resources>

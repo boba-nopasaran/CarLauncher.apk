@@ -2,8 +2,12 @@
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/recording_time" android:paddingBottom="@dimen/dvr_widget_text_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
-        <TextView android:textSize="@dimen/dvr_widget_text_size" android:textColor="#ffffffff" android:id="@id/text" android:background="@null" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_nav" />
+<!-- by boba 18.08.2020
+style -->
+        <TextView android:textSize="@dimen/dvr_widget_text_size" android:textColor="@color/text_gray" android:id="@id/text" android:background="@null" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_nav" />
         <ImageView android:layout_gravity="center" android:id="@id/satellite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/satellite" />
-        <TextView android:textSize="@dimen/dvr_widget_text_size" android:textColor="#ffff0000" android:id="@id/number" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_gps_number" />
+<!-- by boba 18.08.2020
+style -->
+        <TextView android:textSize="@dimen/dvr_widget_text_size" android:textColor="#ff580000" android:id="@id/number" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_gps_number" />
     </LinearLayout>
 </RelativeLayout>

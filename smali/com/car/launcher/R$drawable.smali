@@ -70,6 +70,7 @@
 .field public static final home_ecar_sos:I = 0x7f02001a
 
 .field public static final home_file_manager:I = 0x7f02001b
+.field public static final home_car_player:I = 0x7f02bb01
 
 .field public static final home_fm:I = 0x7f02001c
 

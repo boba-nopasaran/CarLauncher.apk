@@ -62,6 +62,7 @@
 .field public static final home_dvr:I = 0x7f060019
 
 .field public static final home_file_manager:I = 0x7f06001e
+.field public static final home_car_player:I = 0x7f06001e
 
 .field public static final home_fm:I = 0x7f06001c
 

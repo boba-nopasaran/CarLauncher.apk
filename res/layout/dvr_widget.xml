@@ -3,6 +3,8 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="horizontal" android:id="@id/recording_time" android:paddingBottom="@dimen/dvr_widget_text_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
         <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/image" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/red_circle" />
-        <TextView android:textSize="@dimen/dvr_widget_text_size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/text" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_dvr" />
+<!-- by boba 18.08.2020
+style -->
+        <TextView android:textSize="@dimen/dvr_widget_text_size" android:textColor="@color/text_gray" android:gravity="center" android:id="@id/text" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_dvr" />
     </LinearLayout>
 </RelativeLayout>

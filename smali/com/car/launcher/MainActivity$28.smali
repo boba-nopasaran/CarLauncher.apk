@@ -39,7 +39,11 @@
 
     iget-object v0, p0, Lcom/car/launcher/MainActivity$28;->this$0:Lcom/car/launcher/MainActivity;
 
-    invoke-static {v0}, Lcom/car/launcher/StartsUtil;->startFolder(Landroid/content/Context;)V
+#by boba 18.08.2020
+#syte
+#    invoke-static {v0}, Lcom/car/launcher/StartsUtil;->startFolder(Landroid/content/Context;)V
+
+invoke-static {v0}, Lcom/car/launcher/StartsUtil;->startVideo(Landroid/content/Context;)V
 
     return-void
 .end method

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!-- by boba 18.08.2020
+style -->
+    <public type="drawable" name="home_car_player" id="0x7f02bb01" />
+    <public type="string" name="home_car_player" id="0x7f06bb01" />
+
     <public type="attr" name="gravity" id="0x7f010000" />
     <public type="attr" name="gridViewStyle" id="0x7f010001" />
     <public type="attr" name="listSelector" id="0x7f010002" />

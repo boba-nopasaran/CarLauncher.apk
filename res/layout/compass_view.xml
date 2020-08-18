@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="40.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/direction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/north" />
+<!-- by boba 18.08.2020
+style -->
+    <TextView android:textSize="40.0sp" android:textColor="@color/text_gray" android:layout_gravity="center_horizontal" android:id="@id/direction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/north" />
     <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
         <ImageView android:layout_gravity="center_horizontal" android:id="@id/direction_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68.0dip" android:src="@drawable/direction" />
         <com.car.launchercommon.RotateImageView android:layout_gravity="center" android:id="@id/compass_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/compass" />
         <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
-            <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+<!-- by boba 18.08.2020
+style -->
+            <TextView android:textSize="25.0sp" android:textColor="@color/text_gray" android:layout_gravity="center_horizontal" android:id="@id/speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
             <TextView android:textSize="15.0sp" android:textColor="#ff505050" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kmph" />
         </LinearLayout>
     </FrameLayout>
