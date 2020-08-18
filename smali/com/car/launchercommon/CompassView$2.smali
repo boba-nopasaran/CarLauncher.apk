@@ -39,7 +39,12 @@
 
     const/4 v2, 0x0
 
-    const-string v8, "0.0"
+#by boba 18.06.2020
+#weather
+#    const-string v8, "0.0"
+
+const-string v8, "---"	
+const-string v7, "----"	
 
     const-string v10, "sys.current.gpsinfo"
 
@@ -136,37 +141,51 @@
 
     move-result v4
 
+#by boba 18.06.2020
+#weather
+shr-int/lit8 v3, v4, 0x10
+and-int/lit16 v3, v3, 0x3fff
+invoke-static {v3}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+move-result-object v7
+
+and-int/lit8 v3, v4, 0x7f
+mul-int/lit8 v3, v3, 0x24
+add-int/lit8 v3, v3, 0x5
+div-int/lit8 v3, v3, 0xa
+invoke-static {v3}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+move-result-object v8
+
     const v10, 0xffff
 
     and-int/2addr v10, v4
 
     ushr-int/lit8 v0, v10, 0x7
 
-    and-int/lit8 v7, v4, 0x7f
+#    and-int/lit8 v7, v4, 0x7f
 
     rem-int/lit16 v10, v0, 0x168
 
     rsub-int v2, v10, 0x168
 
-    int-to-float v10, v7
+#    int-to-float v10, v7
 
-    const v11, 0x40666666    # 3.6f
+#    const v11, 0x40666666    # 3.6f
 
-    mul-float v5, v10, v11
+#    mul-float v5, v10, v11
 
-    new-instance v1, Ljava/text/DecimalFormat;
+#    new-instance v1, Ljava/text/DecimalFormat;
 
-    const-string v10, "0.0"
+#    const-string v10, "0.0"
 
-    invoke-direct {v1, v10}, Ljava/text/DecimalFormat;-><init>(Ljava/lang/String;)V
+#    invoke-direct {v1, v10}, Ljava/text/DecimalFormat;-><init>(Ljava/lang/String;)V
 
-    float-to-double v10, v5
+#    float-to-double v10, v5
 
-    invoke-virtual {v1, v10, v11}, Ljava/text/DecimalFormat;->format(D)Ljava/lang/String;
+#    invoke-virtual {v1, v10, v11}, Ljava/text/DecimalFormat;->format(D)Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    move-result-object v8
+#    move-result-object v8
 
     :cond_1
     :goto_1
@@ -176,25 +195,32 @@
 
     invoke-static {v10, v11}, Lcom/car/launchercommon/CompassView;->access$302(Lcom/car/launchercommon/CompassView;F)F
 
-    iget-object v10, p0, Lcom/car/launchercommon/CompassView$2;->this$0:Lcom/car/launchercommon/CompassView;
+#by boba 19.06.2020
+#weather
+#    iget-object v10, p0, Lcom/car/launchercommon/CompassView$2;->this$0:Lcom/car/launchercommon/CompassView;
 
-    invoke-static {v10}, Lcom/car/launchercommon/CompassView;->access$800(Lcom/car/launchercommon/CompassView;)V
+#    invoke-static {v10}, Lcom/car/launchercommon/CompassView;->access$800(Lcom/car/launchercommon/CompassView;)V
 
-    invoke-virtual {v8}, Ljava/lang/String;->length()I
+#    invoke-virtual {v8}, Ljava/lang/String;->length()I
 
-    move-result v10
+#    move-result v10
 
-    const/4 v11, 0x4
+#    const/4 v11, 0x4
 
-    if-le v10, v11, :cond_2
+#    if-le v10, v11, :cond_2
 
-    const/4 v10, 0x0
+#    const/4 v10, 0x0
 
-    const/4 v11, 0x3
+#    const/4 v11, 0x3
 
-    invoke-virtual {v8, v10, v11}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+#    invoke-virtual {v8, v10, v11}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
-    move-result-object v8
+#    move-result-object v8
+
+iget-object v10, p0, Lcom/car/launchercommon/CompassView$2;->this$0:Lcom/car/launchercommon/CompassView;
+invoke-static {v10}, Lcom/car/launchercommon/CompassView;->access$alt(Lcom/car/launchercommon/CompassView;)Landroid/widget/TextView;
+move-result-object v10
+invoke-virtual {v10, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V		
 
     :cond_2
     iget-object v10, p0, Lcom/car/launchercommon/CompassView$2;->this$0:Lcom/car/launchercommon/CompassView;

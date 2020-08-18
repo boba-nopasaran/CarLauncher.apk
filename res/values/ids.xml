@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--by boba 18.06.2020
+weather -->
+    <item type="id" name="alt" />
+    <item type="id" name="weather_imageview" />
+
     <item type="id" name="horz_gridview" />
     <item type="id" name="pager" />
     <item type="id" name="direction" />

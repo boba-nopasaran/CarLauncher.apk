@@ -15,6 +15,11 @@
 
 
 # static fields
+#by boba
+#weather
+.field public static final alt:I = 0x7f09bb01
+.field public static final weather_imageview:I = 0x7f09bb02
+
 .field public static final airplane_on:I = 0x7f090022
 
 .field public static final alwaysScroll:I = 0x7f09000c

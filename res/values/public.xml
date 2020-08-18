@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--by boba 18.06.2020
+weather -->
+    <public type="id" name="alt" id="0x7f09bb01" />
+    <public type="id" name="weather_imageview" id="0x7f09bb02" />
+
 <!-- by boba 18.08.2020
 style -->
     <public type="drawable" name="home_car_player" id="0x7f02bb01" />

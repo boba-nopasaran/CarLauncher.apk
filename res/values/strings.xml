@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--by boba 18.06.2020
+weather -->
+    <string name="m">m</string>
+	
 <!--by boba 18.08.2020
 style -->
     <string name="home_car_player">Records</string>

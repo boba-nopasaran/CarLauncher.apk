@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--by boba 18.06.2020
+weather -->
+    <string name="m">м</string>
+
     <string name="launcher_lib_name">Общие настройки</string>
     <string name="no_content_text">Нет данных</string>
     <string name="gps_ok">GPS подключен</string>

@@ -40,6 +40,9 @@
 
 .field private mTargetDirection:F
 
+#by boba 19.06.2020
+#weather
+.field private mAltTV:Landroid/widget/TextView;
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
@@ -129,49 +132,79 @@
 
     iput-object v4, p0, Lcom/car/launchercommon/CompassView;->mSpeedTV:Landroid/widget/TextView;
 
-    iget-object v4, p0, Lcom/car/launchercommon/CompassView;->mRootView:Landroid/view/View;
+#by boba 19.06.2020
+#weather
+iget-object v5, p0, Lcom/car/launchercommon/CompassView;->mContext:Landroid/content/Context;
+invoke-virtual {v5}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+move-result-object v5
+const-string v2, "fonts/num.ttf"
+invoke-static {v5, v2}, Landroid/graphics/Typeface;->createFromAsset(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;
+move-result-object v3
+iget-object v5, p0, Lcom/car/launchercommon/CompassView;->mSpeedTV:Landroid/widget/TextView;
+invoke-virtual {v5, v3}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    sget v5, Lcom/car/launchercommon/R$id;->direction:I
+iget-object v4, p0, Lcom/car/launchercommon/CompassView;->mRootView:Landroid/view/View;
+sget v5, Lcom/car/launchercommon/R$id;->alt:I
+invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+move-result-object v4
+check-cast v4, Landroid/widget/TextView;
+iput-object v4, p0, Lcom/car/launchercommon/CompassView;->mAltTV:Landroid/widget/TextView;
 
-    invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+iget-object v4, p0, Lcom/car/launchercommon/CompassView;->mRootView:Landroid/view/View;
+sget v5, Lcom/car/launchercommon/R$id;->weather_imageview:I
+invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+move-result-object v1
+check-cast v1, Landroid/widget/ImageView;
+new-instance v2, Lcom/car/launchercommon/CompassView$weatherclick;
+invoke-direct {v2, p0}, Lcom/car/launchercommon/CompassView$weatherclick;-><init>(Lcom/car/launchercommon/CompassView;)V
+invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    move-result-object v4
+const/16 v2, 3000
+invoke-virtual {p0, v2}, Lcom/car/launchercommon/CompassView;->getWeather(I)V
 
-    check-cast v4, Landroid/widget/TextView;
+#    iget-object v4, p0, Lcom/car/launchercommon/CompassView;->mRootView:Landroid/view/View;
 
-    iput-object v4, p0, Lcom/car/launchercommon/CompassView;->mDirectionTV:Landroid/widget/TextView;
+#    sget v5, Lcom/car/launchercommon/R$id;->direction:I
 
-    iget-object v4, p0, Lcom/car/launchercommon/CompassView;->mRootView:Landroid/view/View;
+#    invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
-    sget v5, Lcom/car/launchercommon/R$id;->direction_imageview:I
+#    move-result-object v4
 
-    invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+#    check-cast v4, Landroid/widget/TextView;
 
-    move-result-object v1
+#    iput-object v4, p0, Lcom/car/launchercommon/CompassView;->mDirectionTV:Landroid/widget/TextView;
 
-    check-cast v1, Landroid/widget/ImageView;
+#    iget-object v4, p0, Lcom/car/launchercommon/CompassView;->mRootView:Landroid/view/View;
 
-    const-string v4, "/system/custom/launcher/compass/direction.png"
+#    sget v5, Lcom/car/launchercommon/R$id;->direction_imageview:I
 
-    invoke-direct {p0, v4}, Lcom/car/launchercommon/CompassView;->isFileExist(Ljava/lang/String;)Z
+#    invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
-    move-result v4
+#    move-result-object v1
 
-    if-eqz v4, :cond_0
+#    check-cast v1, Landroid/widget/ImageView;
 
-    const-string v4, "/system/custom/launcher/compass/direction.png"
+#    const-string v4, "/system/custom/launcher/compass/direction.png"
 
-    invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+#    invoke-direct {p0, v4}, Lcom/car/launchercommon/CompassView;->isFileExist(Ljava/lang/String;)Z
 
-    move-result-object v3
+#    move-result v4
 
-    invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageURI(Landroid/net/Uri;)V
+#    if-eqz v4, :cond_0
 
-    const-string v4, "LC.CompassView"
+#    const-string v4, "/system/custom/launcher/compass/direction.png"
 
-    const-string v5, "file exits : /system/custom/launcher/compass/direction.png"
+#    invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
-    invoke-static {v4, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#    move-result-object v3
+
+#    invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageURI(Landroid/net/Uri;)V
+
+#    const-string v4, "LC.CompassView"
+
+#    const-string v5, "file exits : /system/custom/launcher/compass/direction.png"
+
+#    invoke-static {v4, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     const-string v4, "/system/custom/launcher/compass/compass.png"
@@ -395,6 +428,16 @@
     .locals 1
 
     iget-object v0, p0, Lcom/car/launchercommon/CompassView;->mSpeedTV:Landroid/widget/TextView;
+
+    return-object v0
+.end method
+
+#by boba 19.06.2020
+#weather
+.method static synthetic access$alt(Lcom/car/launchercommon/CompassView;)Landroid/widget/TextView;
+    .locals 1
+
+    iget-object v0, p0, Lcom/car/launchercommon/CompassView;->mAltTV:Landroid/widget/TextView;
 
     return-object v0
 .end method
@@ -775,6 +818,24 @@
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/car/launchercommon/CompassView;->mStopDrawing:Z
+
+    return-void
+.end method
+
+#by boba 19.06.2020
+#weather
+.method getWeather(I)V
+    .locals 4
+
+    new-instance v0, Lcom/car/launchercommon/CompassView$weather;
+
+    invoke-direct {v0, p0}, Lcom/car/launchercommon/CompassView$weather;-><init>(Lcom/car/launchercommon/CompassView;)V
+
+    iget-object v1, p0, Lcom/car/launchercommon/CompassView;->mHandler:Landroid/os/Handler;
+
+    int-to-long v2, p1
+
+    invoke-virtual {v1, v0, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     return-void
 .end method

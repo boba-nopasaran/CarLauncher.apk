@@ -1,17 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
 <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-<!-- by boba 18.08.2020
-style -->
-    <TextView android:textSize="40.0sp" android:textColor="@color/text_gray" android:layout_gravity="center_horizontal" android:id="@id/direction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/north" />
+    <TextView android:textSize="40.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/direction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/north" />
     <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
         <ImageView android:layout_gravity="center_horizontal" android:id="@id/direction_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68.0dip" android:src="@drawable/direction" />
         <com.car.launchercommon.RotateImageView android:layout_gravity="center" android:id="@id/compass_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/compass" />
         <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
-<!-- by boba 18.08.2020
-style -->
-            <TextView android:textSize="25.0sp" android:textColor="@color/text_gray" android:layout_gravity="center_horizontal" android:id="@id/speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
             <TextView android:textSize="15.0sp" android:textColor="#ff505050" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kmph" />
         </LinearLayout>
     </FrameLayout>
+</LinearLayout>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/speed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="bottom|center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="56sp" />
+
+        <TextView
+            android:id="@id/alt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="bottom|center_horizontal"
+            android:textColor="#ffAAAAAA"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+
+            <com.car.launchercommon.RotateImageView
+                android:id="@id/compass_pointer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/direction" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/kmph"
+            android:gravity="top|center_horizontal"
+            android:textColor="#ff505050"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/m"
+            android:gravity="top|center_horizontal"
+            android:textColor="#ff505050"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/weather_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="weather" />
+    
 </LinearLayout>
