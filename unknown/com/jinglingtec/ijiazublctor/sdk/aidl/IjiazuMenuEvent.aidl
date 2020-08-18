@@ -1,3 +1,0 @@
-package com.jinglingtec.ijiazublctor.sdk.aidl;
-
-parcelable IjiazuMenuEvent;

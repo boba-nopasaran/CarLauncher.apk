@@ -1,6 +1,0 @@
-.class public interface abstract Lcom/amap/api/mapcore/n;
-.super Ljava/lang/Object;
-.source "IUiSettingsDelegate.java"
-
-# interfaces
-.implements Lcom/autonavi/amap/mapcore/interfaces/IUiSettings;
