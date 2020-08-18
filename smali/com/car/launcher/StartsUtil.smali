@@ -217,9 +217,13 @@
 
     new-instance v1, Landroid/content/ComponentName;
 
-    const-string v2, "com.mediatek.filemanager"
+#by boba 15.08.2020
+#tc
+const-string v2, "com.ghisler.android.TotalCommander"
+const-string v3, "com.ghisler.android.TotalCommander.TotalCommander"
+#    const-string v2, "com.mediatek.filemanager"
 
-    const-string v3, "com.mediatek.filemanager.FileManagerOperationActivity"
+#    const-string v3, "com.mediatek.filemanager.FileManagerOperationActivity"
 
     invoke-direct {v1, v2, v3}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
