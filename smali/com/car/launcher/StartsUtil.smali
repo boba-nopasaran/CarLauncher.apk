@@ -406,6 +406,23 @@ const-string v3, "com.ghisler.android.TotalCommander.TotalCommander"
     return-void
 .end method
 
+#by boba 18.08.2020
+#android settings
+.method public static startAndroidSettings(Landroid/content/Context;)V
+    .locals 4
+
+    new-instance v1, Landroid/content/Intent;
+
+    const-string v2, "android.settings.SETTINGS"
+
+    invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    invoke-static {p0, v1}, Lcom/car/launchercommon/Util;->startActivitySafely(Landroid/content/Context;Landroid/content/Intent;)V
+
+    return-void
+.end method
+#settings
+
 .method public static startTianAn(Landroid/content/Context;)V
     .locals 4
 

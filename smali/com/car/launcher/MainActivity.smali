@@ -171,6 +171,12 @@
 
     invoke-virtual {v0, v1}, Lcom/car/launchercommon/ImageViewIcon;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
+#by boba 18.08.2020
+#android settings
+new-instance v1, Lcom/car/launcher/MainActivity$cl_android_set;
+invoke-direct {v1, p0}, Lcom/car/launcher/MainActivity$cl_android_set;-><init>(Lcom/car/launcher/MainActivity;)V
+invoke-virtual {v0, v1}, Lcom/car/launchercommon/ImageViewIcon;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+
     iget-object v1, p0, Lcom/car/launcher/MainActivity;->mSimType:Lcom/car/launcher/MainActivity$SimType;
 
     sget-object v2, Lcom/car/launcher/MainActivity$SimType;->UNKNOWN:Lcom/car/launcher/MainActivity$SimType;
