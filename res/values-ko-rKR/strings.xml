@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="no_content_text">내용을 찾을수 없습니다.</string>
+    <string name="gps_ok">GPS신호정상</string>
+    <string name="mobile_network_ok">이동데이터 네트워크연결 정상</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="south">S</string>
+    <string name="north">N</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">사진찍기 완성</string>
+    <string name="tip_insert_sdcard">SD카드를 꽂아주세요.</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">앞뒤</string>
+    <string name="front_recording">앞</string>
+    <string name="back_recording">뒤</string>
+    <string name="time_am">오전</string>
+    <string name="time_pm">오후</string>
+    <string name="calendar_year">년</string>
+    <string name="calendar_month">월</string>
+    <string name="calendar_day">일</string>
+    <string name="home_nav">GPS네비게이션</string>
+    <string name="home_satellite">개 위성</string>
+    <string name="home_dvr">주행녹화</string>
+    <string name="home_bt">블루투스전화</string>
+    <string name="home_apps">응용</string>
+    <string name="home_fm">FM발사</string>
+    <string name="home_setting">설정</string>
+    <string name="tip_time_h">시</string>
+    <string name="tip_time_m">분</string>
+    <string name="music_widget_initial_text">음악</string>
+    <string name="home_btn_ecar">ecar 온라인</string>
+    <string name="home_btn_daoke">daoke weme</string>
+    <string name="home_btn_tianan">tianan 커넥티드 카</string>
+    <string name="home_btn_fulai">FLY온라인</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">앱스토어</string>
+</resources>

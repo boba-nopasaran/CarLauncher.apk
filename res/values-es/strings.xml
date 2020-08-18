@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="folder_name">nombre de la carpeta</string>
+    <string name="no_content_text">Sin contenido</string>
+    <string name="gps_ok">La ubicación del GPS está bien</string>
+    <string name="mobile_network_ok">La red móvil está conectada</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="south">S</string>
+    <string name="north">N</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Toma la imagen completa</string>
+    <string name="tip_insert_sdcard">Por favor, inserte la tarjeta SD</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">Doble</string>
+    <string name="front_recording">Frente</string>
+    <string name="back_recording">ESPALDA</string>
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="home_nav">Navegacion GPS</string>
+    <string name="home_satellite">Satélites</string>
+    <string name="home_dvr">Vídeo de conducción</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Aplicaciones</string>
+    <string name="home_fm">Estación FM</string>
+    <string name="home_setting">Ajuste</string>
+    <string name="tip_time_h">" "</string>
+    <string name="tip_time_m">" "</string>
+    <string name="music_widget_initial_text">Música</string>
+    <string name="home_btn_ecar">Ecar</string>
+    <string name="home_btn_daoke">Daoke</string>
+    <string name="home_btn_tianan">Tianan</string>
+    <string name="home_btn_fulai">Fulai</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">Tienda de juegos</string>
+</resources>

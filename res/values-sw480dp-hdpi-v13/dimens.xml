@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_btn_text_size">15.0sp</dimen>
+    <dimen name="home_btn_text_padding_top">60.0dip</dimen>
+    <dimen name="dvr_widget_text_padding_bottom">19.0dip</dimen>
+    <item type="dimen" name="compass_weight">2.1</item>
+    <item type="dimen" name="weather_weight">0.9</item>
+</resources>

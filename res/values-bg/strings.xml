@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="folder_name">folder_name</string>
+    <string name="no_content_text">Празно</string>
+    <string name="gps_ok">GPS сигнала е OK</string>
+    <string name="mobile_network_ok">Мобилна Мрежа - ОК</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="south">S</string>
+    <string name="north">N</string>
+    <string name="kmph">км/ч</string>
+    <string name="take_picture_complete">Готовност за заснемане</string>
+    <string name="tip_insert_sdcard">Поставете SD-карта</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">Двойна</string>
+    <string name="front_recording">Предна</string>
+    <string name="back_recording">Задна</string>
+    <string name="time_am">пр.о</string>
+    <string name="time_pm">сл.о</string>
+    <string name="calendar_year">г.</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="home_nav">GPS Навигация</string>
+    <string name="home_satellite">Сателити</string>
+    <string name="home_dvr">Driving Video</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Apps</string>
+    <string name="home_fm">FM Радио</string>
+    <string name="home_setting">Настройки</string>
+    <string name="tip_time_h">ч.</string>
+    <string name="tip_time_m">м.</string>
+    <string name="music_widget_initial_text">Натисни за избор на музика.</string>
+    <string name="home_btn_ecar">Ecar</string>
+    <string name="home_btn_daoke">Daoke</string>
+    <string name="home_btn_tianan">Tianan</string>
+    <string name="home_btn_fulai">Fulai</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">Play Store</string>
+</resources>

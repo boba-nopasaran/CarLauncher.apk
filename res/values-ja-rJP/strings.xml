@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="no_content_text">見つけません</string>
+    <string name="gps_ok">GPS接続済み</string>
+    <string name="mobile_network_ok">ネット接続済み</string>
+    <string name="east">東</string>
+    <string name="west">西</string>
+    <string name="south">南</string>
+    <string name="north">北</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">写真を保存する</string>
+    <string name="tip_insert_sdcard">SDカードを挿入してください</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">双</string>
+    <string name="front_recording">前</string>
+    <string name="back_recording">後</string>
+    <string name="time_am">午前</string>
+    <string name="time_pm">午後</string>
+    <string name="calendar_year">年</string>
+    <string name="calendar_month">月</string>
+    <string name="calendar_day">日</string>
+    <string name="home_nav">GPSナビ</string>
+    <string name="home_satellite">個の衛星</string>
+    <string name="home_dvr">ドライブビデオ</string>
+    <string name="home_bt">Bluetooth電話</string>
+    <string name="home_apps">アプリ</string>
+    <string name="home_fm">FM発射</string>
+    <string name="home_setting">設定</string>
+    <string name="home_file_manager">ファイル管理</string>
+    <string name="tip_time_h">時</string>
+    <string name="tip_time_m">分</string>
+    <string name="music_widget_initial_text">音楽リスト</string>
+    <string name="home_btn_ecar">フローカード</string>
+    <string name="home_btn_daoke">道客微密</string>
+    <string name="home_btn_chelian">車連カード</string>
+    <string name="home_btn_tianan">天安カーネットワークカード</string>
+    <string name="home_btn_fulai">福来カードがオンラインしています</string>
+    <string name="home_btn_recharge">データ通信量リチャージ</string>
+    <string name="home_btn_ecar_sos">ドライブSOS</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">アプリ商店</string>
+    <string name="mph">mph</string>
+</resources>

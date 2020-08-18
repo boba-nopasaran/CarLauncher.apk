@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">Общие настройки</string>
+    <string name="no_content_text">Нет данных</string>
+    <string name="gps_ok">GPS подключен</string>
+    <string name="mobile_network_ok">Мобильный интернет подключен</string>
+    <string name="east">Восток</string>
+    <string name="west">Запад</string>
+    <string name="south">Юг</string>
+    <string name="north">Север</string>
+    <string name="kmph">км/ч</string>
+    <string name="take_picture_complete">Фото сделано</string>
+    <string name="tip_insert_sdcard">Вставьте SD-карту</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">Две камеры</string>
+    <string name="front_recording">Фронтальная</string>
+    <string name="back_recording">Тыловая</string>
+    <string name="time_am">АМ</string>
+    <string name="time_pm">РМ</string>
+    <string name="calendar_year">Год</string>
+    <string name="calendar_month">Месяц</string>
+    <string name="calendar_day">День</string>
+    <string name="home_nav">GPS Навигатор</string>
+    <string name="home_satellite">Спутник</string>
+    <string name="home_dvr">Видеорегистратор</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Приложения</string>
+    <string name="home_fm">FM-передатчик</string>
+    <string name="home_setting">Настройки</string>
+    <string name="tip_time_h">:</string>
+    <string name="tip_time_m" />
+    <string name="music_widget_initial_text">Музыка</string>
+    <string name="home_btn_ecar">ecar</string>
+    <string name="home_btn_daoke">daoke</string>
+    <string name="home_btn_tianan">tianan</string>
+    <string name="home_btn_fulai">fulai</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">Play Store</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_item_padding">2.0dip</dimen>
+    <dimen name="app_icon_size">72.0dip</dimen>
+    <dimen name="app_lable_textsize">20.0sp</dimen>
+    <dimen name="home_line_height">160.0dip</dimen>
+    <dimen name="top_time_text_size">52.0sp</dimen>
+    <dimen name="top_calendar_text_size">20.0sp</dimen>
+    <dimen name="top_record_text_size">25.0sp</dimen>
+    <dimen name="top_time_margin_right">10.0dip</dimen>
+    <dimen name="top_time_height">10.0dip</dimen>
+    <dimen name="top_dot_size">15.0dip</dimen>
+    <dimen name="home_row_height">160.0dip</dimen>
+    <dimen name="home_btn_margin">3.0dip</dimen>
+    <dimen name="home_btn_text_size">18.0sp</dimen>
+    <dimen name="home_btn_text_padding_top">62.0dip</dimen>
+    <dimen name="dvr_widget_text_size">20.0sp</dimen>
+    <dimen name="dvr_widget_text_padding_bottom">24.0dip</dimen>
+    <dimen name="music_widget_padding_top">12.0dip</dimen>
+    <dimen name="music_widget_title_size">22.0sp</dimen>
+    <dimen name="music_widget_artist_size">16.0sp</dimen>
+    <dimen name="music_widget_controlbar_padding_top">4.0dip</dimen>
+</resources>

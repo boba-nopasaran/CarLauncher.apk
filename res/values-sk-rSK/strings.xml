@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="folder_name">meno_adresára</string>
+    <string name="no_content_text">Žiadny obsah</string>
+    <string name="gps_ok">GPS lokalizácia je OK</string>
+    <string name="mobile_network_ok">Mobilná sieť je pripojená</string>
+    <string name="east">V</string>
+    <string name="west">Z</string>
+    <string name="south">J</string>
+    <string name="north">S</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Fotografia dokončená</string>
+    <string name="tip_insert_sdcard">Vložte SD kartu</string>
+    <string name="app_name">Auto</string>
+    <string name="recording_time"><g id="caas1">%1$s</g> <g id="caas2">%2$s</g></string>
+    <string name="dual_recording">Duálna</string>
+    <string name="front_recording">Predná</string>
+    <string name="back_recording">Zadná</string>
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="home_nav">GPS Navigácia</string>
+    <string name="home_satellite">Satelity</string>
+    <string name="home_dvr">Záznam jazdy</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Aplikácie</string>
+    <string name="home_fm">FM Transmiter</string>
+    <string name="home_setting">Nastavenia</string>
+    <string name="tip_time_h">:</string>
+    <string name="tip_time_m" />
+    <string name="music_widget_initial_text">Klepnutím vyberte hudbu.</string>
+    <string name="home_btn_ecar">Eauto</string>
+    <string name="home_btn_daoke">Daoke</string>
+    <string name="home_btn_tianan">Tianan</string>
+    <string name="home_btn_fulai">Fulai</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+</resources>

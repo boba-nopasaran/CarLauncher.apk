@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="0.0dip">
+        <com.car.launcher.BatteryMeterView android:layout_gravity="center" android:id="@id/battery" android:layout_width="16.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/bluetooth" android:layout_width="27.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/stat_sys_data_bluetooth" />
+        <ImageView android:layout_gravity="center" android:id="@id/wifi" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/stat_sys_wifi_signal_0_fully" />
+        <com.car.launchercommon.MobileNetworkView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/mute" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/stat_mute" />
+        <ImageView android:layout_gravity="center" android:id="@id/gps_disabled" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/stat_gps_disabled" />
+        <ImageView android:layout_gravity="center" android:id="@id/fm" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/stat_fm" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="bottom|center|right" android:id="@id/date_and_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip">
+        <com.car.launcher.TimeView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/top_time_text_size" android:textColor="@color/top_font_normal" android:gravity="right" android:id="@id/timeView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.car.launcher.CalendarView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/top_calendar_text_size" android:textColor="@color/top_font_normal" android:gravity="right" android:id="@id/calendarView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_below="@id/timeView" />
+    </RelativeLayout>
+</FrameLayout>

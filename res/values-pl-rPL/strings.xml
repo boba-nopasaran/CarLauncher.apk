@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="no_content_text">nie można znaleźć treść</string>
+    <string name="gps_ok">Sygnały GPS normalnie</string>
+    <string name="mobile_network_ok">Mobilne połączenie sieciowe dane</string>
+    <string name="east">wschód</string>
+    <string name="west">western</string>
+    <string name="south">południe</string>
+    <string name="north">północ</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">kompletna kamera</string>
+    <string name="tip_insert_sdcard">Włóż kartę SD</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording" />
+    <string name="front_recording">Przednia</string>
+    <string name="back_recording">później</string>
+    <string name="time_am">rano</string>
+    <string name="time_pm">popołudnie</string>
+    <string name="calendar_year">rok</string>
+    <string name="calendar_month">miesiąc</string>
+    <string name="calendar_day">dzień</string>
+    <string name="home_nav">Nawigacja GPS</string>
+    <string name="home_satellite">satelity</string>
+    <string name="home_dvr">Rejestrator jazdy</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Aplikacje</string>
+    <string name="home_fm">FM</string>
+    <string name="home_setting">utworzyć</string>
+    <string name="tip_time_h">punkt</string>
+    <string name="tip_time_m">podzielić</string>
+    <string name="music_widget_initial_text">Wybierz muzykę</string>
+    <string name="home_btn_ecar">Karta skrzydło Internecie</string>
+    <string name="home_btn_daoke">Drogowego osób Micropavé</string>
+    <string name="home_btn_tianan">Tian sieci samochód</string>
+    <string name="home_btn_fulai">Fuk Loi karta Internecie</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">App Store</string>
+</resources>

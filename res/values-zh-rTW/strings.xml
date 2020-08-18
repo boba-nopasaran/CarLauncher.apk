@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">雙</string>
+    <string name="front_recording">前</string>
+    <string name="back_recording">後</string>
+    <string name="time_am">上午</string>
+    <string name="time_pm">下午</string>
+    <string name="calendar_year">年</string>
+    <string name="calendar_month">月</string>
+    <string name="calendar_day">日</string>
+    <string name="home_nav">GPS導航</string>
+    <string name="home_satellite">顆衛星</string>
+    <string name="home_dvr">行車錄影</string>
+    <string name="home_bt">藍牙電話</string>
+    <string name="home_apps">應用</string>
+    <string name="home_fm">FM發射</string>
+    <string name="home_setting">設置</string>
+    <string name="tip_time_h">點</string>
+    <string name="tip_time_m">分</string>
+    <string name="music_widget_initial_text">點擊這裡去選擇音樂</string>
+    <string name="home_btn_ecar">翼卡在線</string>
+    <string name="home_btn_daoke">道客微密</string>
+    <string name="home_btn_chelian">車聯卡</string>
+    <string name="home_btn_tianan">天安車聯網</string>
+    <string name="home_btn_fulai">福來卡在線</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">應用商店</string>
+    <string name="homt_btn_wo_card">一路沃</string>
+</resources>

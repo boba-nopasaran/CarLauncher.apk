@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="no_content_text">Contenu introuvable</string>
+    <string name="gps_ok">Le signal GPS est normal</string>
+    <string name="mobile_network_ok">La connexion de réseau de données mobiles est normale</string>
+    <string name="east">Est</string>
+    <string name="west">Ouest</string>
+    <string name="south">Sud</string>
+    <string name="north">Nord</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Prise de photos terminée</string>
+    <string name="tip_insert_sdcard">Veuillez insérer la carte SD</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">Double</string>
+    <string name="front_recording">Avant</string>
+    <string name="back_recording">Après</string>
+    <string name="time_am">Matin</string>
+    <string name="time_pm">Après-midi</string>
+    <string name="calendar_year">Année</string>
+    <string name="calendar_month">Mois</string>
+    <string name="calendar_day">Jour</string>
+    <string name="home_nav">Navigation GPS</string>
+    <string name="home_satellite">Satellites</string>
+    <string name="home_dvr">Vidéo de conduite</string>
+    <string name="home_bt">Téléphone Bluetooth</string>
+    <string name="home_apps">Application</string>
+    <string name="home_fm">Diffusion FM</string>
+    <string name="home_setting">Configuration</string>
+    <string name="home_file_manager">Gestion des fichiers</string>
+    <string name="tip_time_h">Heure</string>
+    <string name="tip_time_m">Minute</string>
+    <string name="music_widget_initial_text">Cliquez ici pour sélectionner la musique</string>
+    <string name="home_btn_ecar">Application Ecar</string>
+    <string name="home_btn_daoke">Application Weme</string>
+    <string name="home_btn_chelian">Carte telematics</string>
+    <string name="home_btn_tianan">TIAN-NET</string>
+    <string name="home_btn_fulai">Application FlyCar</string>
+    <string name="home_btn_recharge">Recharge de débit</string>
+    <string name="home_btn_ecar_sos">SOS de conduite</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">"Magasin d'applications"</string>
+</resources>

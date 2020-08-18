@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="folder_name">қалта атауы</string>
+    <string name="no_content_text">жоқ мазмұны</string>
+    <string name="gps_ok">GPS орналасуы OK болып табылады</string>
+    <string name="mobile_network_ok">Мобильді желі қосылған</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="south">S</string>
+    <string name="north">N</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Толық суретін алыңыз</string>
+    <string name="tip_insert_sdcard">SD картасын салыңыз сұраймыз</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">қос</string>
+    <string name="front_recording">бұрын</string>
+    <string name="back_recording">кейінірек</string>
+    <string name="time_am">таң</string>
+    <string name="time_pm">түс</string>
+    <string name="calendar_year">жыл</string>
+    <string name="calendar_month">ай</string>
+    <string name="calendar_day">күн</string>
+    <string name="home_nav">GPS навигация</string>
+    <string name="home_dvr">Жүргізу Бейне</string>
+    <string name="home_bt">Bluetooth телефон</string>
+    <string name="home_apps">қолдану</string>
+    <string name="home_fm">FM таратқыш</string>
+    <string name="home_setting">орнату</string>
+    <string name="tip_time_h">сағат</string>
+    <string name="tip_time_m">тармақ</string>
+    <string name="music_widget_initial_text">музыка</string>
+    <string name="home_btn_play_store">Ойын дүкені</string>
+</resources>

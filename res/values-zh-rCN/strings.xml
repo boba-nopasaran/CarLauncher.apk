@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="no_content_text">找不到内容</string>
+    <string name="gps_ok">GPS信号正常</string>
+    <string name="mobile_network_ok">移动数据网络连接正常</string>
+    <string name="east">东</string>
+    <string name="west">西</string>
+    <string name="south">南</string>
+    <string name="north">北</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">拍照完成</string>
+    <string name="tip_insert_sdcard">请插入SD卡</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">双</string>
+    <string name="front_recording">前</string>
+    <string name="back_recording">后</string>
+    <string name="time_am">上午</string>
+    <string name="time_pm">下午</string>
+    <string name="calendar_year">年</string>
+    <string name="calendar_month">月</string>
+    <string name="calendar_day">日</string>
+    <string name="home_nav">GPS导航</string>
+    <string name="home_satellite">颗卫星</string>
+    <string name="home_dvr">行车录影</string>
+    <string name="home_bt">蓝牙电话</string>
+    <string name="home_apps">应用</string>
+    <string name="home_fm">FM发射</string>
+    <string name="home_setting">设置</string>
+    <string name="home_file_manager">文件管理</string>
+    <string name="tip_time_h">点</string>
+    <string name="tip_time_m">分</string>
+    <string name="music_widget_initial_text">点击这里去选择音乐</string>
+    <string name="home_btn_ecar">翼卡在线</string>
+    <string name="home_btn_daoke">道客微密</string>
+    <string name="home_btn_chelian">车联卡</string>
+    <string name="home_btn_tianan">天安车联网</string>
+    <string name="home_btn_fulai">福来卡在线</string>
+    <string name="home_btn_recharge">流量充值</string>
+    <string name="home_btn_ecar_sos">行车SOS</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">应用商店</string>
+</resources>

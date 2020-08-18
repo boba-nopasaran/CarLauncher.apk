@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="3.0dip" android:layout_weight="4.0">
+                <com.car.launcher.SystemStatusWidget android:id="@id/widget_sysstatus" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="bottom|center|left" android:id="@id/id_mini_settings" android:paddingLeft="5.0dip" android:paddingTop="40.0dip" android:paddingRight="40.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="105.0dip" android:layout_height="105.0dip" android:src="@drawable/settings" android:scaleType="center" />
+                <com.car.launchercommon.ImageViewIcon android:textSize="@dimen/home_btn_text_size" android:id="@id/btn_larger_setting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/home_setting" style="@style/iconText" />
+            </FrameLayout>
+            <com.car.launcher.GpsWidget android:id="@id/widget_gps" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/home_btn_margin" android:layout_weight="6.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.car.launcher.DvrWidget android:id="@id/widget_dvr" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/home_btn_margin" android:layout_weight="4.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/home_btn_margin" android:layout_weight="6.0">
+                <com.car.launchercommon.ImageViewIcon android:textSize="@dimen/home_btn_text_size" android:id="@id/btn_bt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/home_btn_margin" android:text="@string/home_bt" android:layout_weight="1.0" style="@style/iconText" />
+                <com.car.launchercommon.ImageViewIcon android:textSize="@dimen/home_btn_text_size" android:id="@id/btn_fm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/home_btn_margin" android:text="@string/home_fm" android:layout_weight="1.0" style="@style/iconText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.car.launcher.MusicWidget android:id="@id/widget_music" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/home_btn_margin" android:layout_weight="4.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/home_btn_margin" android:layout_weight="6.0">
+                <com.car.launchercommon.ImageViewIcon android:textSize="@dimen/home_btn_text_size" android:id="@id/btn_setting" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/home_btn_margin" android:text="@string/home_setting" android:layout_weight="3.0" style="@style/iconText" />
+                <com.car.launchercommon.ImageViewIcon android:textSize="@dimen/home_btn_text_size" android:id="@id/btn_apps" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/home_btn_margin" android:text="@string/home_apps" android:layout_weight="3.0" style="@style/iconText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/compassFrame" style="@style/compassFrame">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/home_btn_margin" android:layout_weight="323.0">
+            <com.car.launchercommon.CompassView android:gravity="center" android:id="@id/compass" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/compass_weight" />
+            <LinearLayout android:orientation="vertical" android:id="@id/weather" android:background="@drawable/compass_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/weather_weight">
+                <ImageView android:layout_gravity="center" android:id="@id/id_weathericon" android:layout_width="105.0dip" android:layout_height="105.0dip" android:src="@drawable/weather_na" android:scaleType="center" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/id_weathertype" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/id_weathertemp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/id_weathercity" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/home_btn_margin" android:layout_weight="157.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/home_btn_margin" android:layout_weight="1.0">
+                <ImageButton android:id="@id/volume_up" android:background="@drawable/small_btn_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/home_btn_margin" android:src="@drawable/volume_up" android:scaleType="centerInside" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/volume_down" android:background="@drawable/small_btn_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/home_btn_margin" android:src="@drawable/volume_down" android:scaleType="centerInside" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageButton android:id="@id/carassist" android:background="@drawable/carassist_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/home_btn_margin" android:layout_marginRight="@dimen/home_btn_margin" android:src="@drawable/carassist" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/home_btn_margin" android:layout_weight="1.0">
+                <ImageButton android:id="@id/brightness_up" android:background="@drawable/small_btn_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/home_btn_margin" android:src="@drawable/brightness_up" android:scaleType="centerInside" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/brightness_down" android:background="@drawable/small_btn_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/home_btn_margin" android:src="@drawable/brightness_down" android:scaleType="centerInside" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

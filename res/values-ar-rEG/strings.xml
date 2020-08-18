@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="no_content_text">لا يوجد بيانات</string>
+    <string name="gps_ok">جى بى اس جيد</string>
+    <string name="mobile_network_ok">شبكة المحمول جيدة</string>
+    <string name="east">شرق</string>
+    <string name="west">غرب</string>
+    <string name="south">جنوب</string>
+    <string name="north">شمال</string>
+    <string name="kmph">km/h</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">تسجيل مزدوج</string>
+    <string name="front_recording">تسجيل أمامي</string>
+    <string name="back_recording">تسجيل خلفى</string>
+    <string name="time_am">التوقيت الصباحى</string>
+    <string name="time_pm">التوقيت المسائى</string>
+    <string name="calendar_year">السنة</string>
+    <string name="calendar_month">الشهر</string>
+    <string name="calendar_day">اليوم</string>
+    <string name="home_nav">جى بى اس</string>
+    <string name="home_dvr">دى فى ار</string>
+    <string name="home_bt">زر سطح الجهاز</string>
+    <string name="home_apps">البرامج</string>
+    <string name="home_fm">اف ام</string>
+    <string name="home_setting">الاعدادات</string>
+    <string name="tip_time_h">الساعة</string>
+    <string name="tip_time_m">الدقيقة</string>
+    <string name="music_widget_initial_text">موسيقى</string>
+    <string name="home_btn_play_store">متجر بلاي</string>
+</resources>

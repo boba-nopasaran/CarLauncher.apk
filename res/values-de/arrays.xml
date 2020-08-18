@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>So</item>
+        <item>Mo</item>
+        <item>Di</item>
+        <item>Mi</item>
+        <item>Do</item>
+        <item>Fr</item>
+        <item>Sa</item>
+    </string-array>
+    <string-array name="months">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>Märtz</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>JUni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+    </string-array>
+    <integer-array name="batterymeter_color_levels">
+        <item>4</item>
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>#ffff3300</item>
+        <item>#ffff3300</item>
+        <item>#ffffffff</item>
+    </array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+</resources>

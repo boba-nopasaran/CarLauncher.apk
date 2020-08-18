@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="folder_name">adresář_jméno</string>
+    <string name="no_content_text">Žádný obsah</string>
+    <string name="gps_ok">Poloha GPS je OK</string>
+    <string name="mobile_network_ok">Je připojena mobilní síť</string>
+    <string name="east">V</string>
+    <string name="west">Z</string>
+    <string name="south">J</string>
+    <string name="north">S</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Fotografování dokončeno</string>
+    <string name="tip_insert_sdcard">Vložte SD kartu</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="část1">%1$s</g> <g id="část2">%2$s</g></string>
+    <string name="dual_recording">Duální</string>
+    <string name="front_recording">Přední</string>
+    <string name="back_recording">Zadní</string>
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="home_nav">GPS Navigace</string>
+    <string name="home_satellite">Satelity</string>
+    <string name="home_dvr">Záznam jízdy</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Aplikace</string>
+    <string name="home_fm">FM transmiter</string>
+    <string name="home_setting">Nastavení</string>
+    <string name="home_file_manager">File Manager</string>
+    <string name="tip_time_h">" "</string>
+    <string name="tip_time_m">" "</string>
+    <string name="music_widget_initial_text">Klepnutím vyberte hudbu.</string>
+    <string name="home_btn_ecar">Eauto</string>
+    <string name="home_btn_daoke">Daoke</string>
+    <string name="home_btn_chelian">Chelian</string>
+    <string name="home_btn_tianan">Tianan</string>
+    <string name="home_btn_fulai">Fulai</string>
+    <string name="home_btn_recharge">Recharge</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">Play obchod</string>
+</resources>

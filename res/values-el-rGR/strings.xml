@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="folder_name">folder_name</string>
+    <string name="no_content_text">No Content</string>
+    <string name="gps_ok">GPS location is OK</string>
+    <string name="mobile_network_ok">Mobile network is connected</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="south">S</string>
+    <string name="north">N</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Take Picture Complete</string>
+    <string name="tip_insert_sdcard">Please insert SD Card</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">Διπλός</string>
+    <string name="front_recording">Μπροστά</string>
+    <string name="back_recording">ΠΙΣΩ</string>
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="home_nav">Πλοήγηση GPS</string>
+    <string name="home_satellite">Δορυφόροι</string>
+    <string name="home_dvr">Οδήγηση βίντεο</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Εφαρμογές</string>
+    <string name="home_fm">Σταθμός FM</string>
+    <string name="home_setting">Ρυθμίσεις</string>
+    <string name="home_file_manager">Διαχείριση αρχείων</string>
+    <string name="tip_time_h">" "</string>
+    <string name="tip_time_m">" "</string>
+    <string name="music_widget_initial_text">Αγγίξτε για να επιλέξετε μουσική.</string>
+    <string name="home_btn_ecar">Ecar</string>
+    <string name="home_btn_daoke">Νταουκ</string>
+    <string name="home_btn_chelian">Χέλιαν</string>
+    <string name="home_btn_tianan">Tianan</string>
+    <string name="home_btn_fulai">Fulai</string>
+    <string name="home_btn_recharge">Επαναφορτίστε</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">Play Store</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="folder_name">tên thư mục</string>
+    <string name="no_content_text">Không có nội dung</string>
+    <string name="gps_ok">Vị trí GPS là OK</string>
+    <string name="mobile_network_ok">Đã kết nối mạng di động</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="south">S</string>
+    <string name="north">N</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Xin vui lòng chèn thẻ SD</string>
+    <string name="tip_insert_sdcard">Lắp thẻ SD</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">Kép</string>
+    <string name="front_recording">Trước</string>
+    <string name="back_recording">Quay lại</string>
+    <string name="time_am">SA</string>
+    <string name="time_pm">CH</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="home_nav">Định vị GPS</string>
+    <string name="home_satellite">Vệ tinh</string>
+    <string name="home_dvr">Video lái xe</string>
+    <string name="home_bt">Bluetooth</string>
+    <string name="home_apps">Ứng dụng</string>
+    <string name="home_fm">Đài FM</string>
+    <string name="home_setting">Cài đặt</string>
+    <string name="tip_time_h">" "</string>
+    <string name="tip_time_m">" "</string>
+    <string name="music_widget_initial_text">Chạm để chọn nhạc</string>
+    <string name="home_btn_ecar">Ecar</string>
+    <string name="home_btn_daoke">Daoke</string>
+    <string name="home_btn_tianan">Tianan</string>
+    <string name="home_btn_fulai">Fulai</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">Cửa hàng trò chơi</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_lib_name">LauncherCommon</string>
+    <string name="no_content_text">Non trovato contenuto</string>
+    <string name="gps_ok">Segnale GPS è normale</string>
+    <string name="mobile_network_ok">Connessione della rete di dati mobile è normale</string>
+    <string name="east">Est</string>
+    <string name="west">Ovest</string>
+    <string name="south">Sud</string>
+    <string name="north">Nord</string>
+    <string name="kmph">km/h</string>
+    <string name="take_picture_complete">Fotografia completata</string>
+    <string name="tip_insert_sdcard">Inserisci scheda SD</string>
+    <string name="app_name">CarLauncher</string>
+    <string name="recording_time"><g id="part1">%1$s</g> <g id="part2">%2$s</g></string>
+    <string name="dual_recording">Doppio</string>
+    <string name="front_recording">Anteriore</string>
+    <string name="back_recording">Posteriore</string>
+    <string name="time_am">Mattina</string>
+    <string name="time_pm">Pomeriggio</string>
+    <string name="calendar_year">Anno</string>
+    <string name="calendar_month">Mese</string>
+    <string name="calendar_day">Giorno</string>
+    <string name="home_nav">Navigazione GPS</string>
+    <string name="home_satellite">Satellite</string>
+    <string name="home_dvr">Video di guida</string>
+    <string name="home_bt">Telefono Bluetooth</string>
+    <string name="home_apps">Applicazione</string>
+    <string name="home_fm">Lancio FM</string>
+    <string name="home_setting">Impostazioni</string>
+    <string name="home_file_manager">Gestione di file</string>
+    <string name="tip_time_h">Ora</string>
+    <string name="tip_time_m">Minuto</string>
+    <string name="music_widget_initial_text">Clicca qui per segliere la musica</string>
+    <string name="home_btn_ecar">E-car online</string>
+    <string name="home_btn_daoke">DaoKeweme</string>
+    <string name="home_btn_chelian">Carta di veicoli</string>
+    <string name="home_btn_tianan">Internet di veicoli Tian’an</string>
+    <string name="home_btn_fulai">Fulaika online</string>
+    <string name="home_btn_recharge">Ricarica di dati</string>
+    <string name="home_btn_ecar_sos">Guida SOS</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="home_btn_play_store">Negozio App</string>
+</resources>
