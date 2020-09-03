@@ -20,4 +20,8 @@
     <dimen name="music_widget_title_size">22.0sp</dimen>
     <dimen name="music_widget_artist_size">16.0sp</dimen>
     <dimen name="music_widget_controlbar_padding_top">4.0dip</dimen>
+
+    <item type="dimen" name="compass_weight">2.0</item>
+    <item type="dimen" name="weather_weight">1.0</item>
+
 </resources>
