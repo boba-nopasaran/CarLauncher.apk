@@ -421,7 +421,9 @@ const v2, 0x7f02bb01
         }
     .end annotation
 
-    invoke-virtual {p0}, Lcom/car/launcher/MainActivity;->cardTest()V
+#by boba 2.10.2020
+#playstore
+#    invoke-virtual {p0}, Lcom/car/launcher/MainActivity;->cardTest()V
 
     invoke-direct {p0}, Lcom/car/launcher/MainActivity;->updateSimCarProviderUI()V
 
@@ -979,7 +981,9 @@ const v2, 0x7f02bb01
 
     invoke-virtual {p0, v9}, Lcom/car/launcher/MainActivity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/car/launcher/MainActivity;->cardTest()V
+#by boba 2.10.2020
+#playstore
+#    invoke-virtual {p0}, Lcom/car/launcher/MainActivity;->cardTest()V
 
     invoke-virtual {p0}, Lcom/car/launcher/MainActivity;->getWindowManager()Landroid/view/WindowManager;
 
